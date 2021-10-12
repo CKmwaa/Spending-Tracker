@@ -1,4 +1,16 @@
 homepage{
     display: flex;
+    padding-left: 25%;
+    background-color: yellow;
+    width: 800px;
+    align-items: center;
+    margin-left: 5%;
     
+}
+.header{
+    text-align: center;
+    padding: 5%;
+}
+.intro, .about{
+    background-color: #c4c4c4;
 }
