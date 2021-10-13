@@ -1,16 +1,7 @@
-homepage{
+.logo{
     display: flex;
-    padding-left: 25%;
-    background-color: yellow;
-    width: 800px;
-    align-items: center;
-    margin-left: 5%;
-    
+    justify-content: space-evenly;
 }
-.header{
-    text-align: center;
-    padding: 5%;
-}
-.intro, .about{
-    background-color: #c4c4c4;
+.logo>h1{
+    color: blue;
 }
