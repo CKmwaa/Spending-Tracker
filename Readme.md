@@ -1,4 +1,4 @@
-# Spendinng Tracker 
+# Spending Tracker 
 ​
 ##### By Caleb, Felix, Nelson and Rodgers. 
 ### It is a description of the Spending Tracker Website.
@@ -25,8 +25,10 @@
 ​
 * An access to the Internet
 ​
-### Installation Process
+### Accessing Process
 ​
+* Click to your browser
+* On the search bar enter spending tracker link and proceed
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
@@ -69,5 +71,3 @@ SOFTWARE.
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ​
-
-
