@@ -1,4 +1,4 @@
-# Portfolio
+# Spendinng Tracker 
 ​
 ##### By Caleb, Felix, Nelson and Rodgers. 
 ### It is a description of the Spending Tracker Website.
