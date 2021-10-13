@@ -41,3 +41,27 @@ nav>ul>li>a:hover{
     opacity: 1;
 }
 /* End of header styling */
+
+/* about styling */
+about{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+.abouttext{
+    padding: 10%;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 750;
+    
+    
+}
+.introtext{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* footer styling  */
