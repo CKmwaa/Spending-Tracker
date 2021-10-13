@@ -61,6 +61,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ​
+#### Click to the site
+[click Here]https:/github.com/CKmwaa/Spending-Tracker/)
+
+
+#### License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ​
 
