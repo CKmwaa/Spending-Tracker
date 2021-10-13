@@ -8,8 +8,25 @@
     <title>Spending Tracker</title>
 </head>
 <body>
-    <div>
-        <h1>Welcome User</h1>
+    <header>
+        <div class="logo">
+           <img id="image1"  src="$.png" heigth="100" width="100">
+            <h1>THE SPENDING TRACKER</h1>
+            <img id="image1" src="$.png" heigth="100" width="100">
+        </div>
+            
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#signin">SIGN IN</a></li>
+                <li><a href="#index.html">USAGE</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="tbl">
+        <!-- example of what to display when a user adds expenses to the site -->
+        <h1 id="wlcm">Welcome User</h1>
         <div class="ex">
             <table>
                 <tr>
@@ -36,13 +53,35 @@
                     <td>Clothing</td>
                     <td> </td>
                 </tr>
+                <tr>
+                    <td>Total Exp</td>
+                    <td></td>
+                </tr>
             </table>
         </div>
         <div class="sub">
-            <h3>Your Income</h3>
-            <h3>Total Expenditure</h3>
-            <h3>Balance</h3>
+            <div class="inc">
+                <h3>Your Income</h3>
+                <input id="income" type="number" placeholder="Input Your Income" name="Your Income"  required >    
+            </div>
+            <div class="ttl">
+                <h3>Add Expense</h3>
+                <input id="xpns" type="text" placeholder=" Expense" name="Expense"  required> 
+            </div>
+            <div class="blns">
+                <h3>Balance</h3>
+                <button id="bln"><a href="">Your Balance</a></button>
+            </div>
         </div>
     </div>
+    <footer>
+        <div>About Us.</div>
+        <div id="cprt">
+            Copyright (2021). Four Lane Technology Co. Limited.<br>
+            All rights reserved.
+        </div>
+        <div>Privacy Policy</div>   
+    </footer>
+    
 </body>
 </html>
