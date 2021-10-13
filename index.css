@@ -62,6 +62,16 @@ about{
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 /* footer styling  */
+footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: #e6e1e1;
+    padding: 20px;
+}
+.copyright{
+    text-align: center;
+}
