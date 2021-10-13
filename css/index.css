@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(236, 243, 243);
+}
+.first{
+    color: black;
+    text-align: center;
+   font-size: 5ex;
+}
+.second{
+    text-align: center;
+    font-size: 20px;
+}
+.foot{
+    background-color:#c4c4c4;
+}
