@@ -1,68 +1,4 @@
 
-.ex{
-    padding-left: 30px;
-    display:flex;
-}
-table{
-    margin-left:300px;
-    padding-top:30px;
-    padding-bottom:50px;
-    width:500px;
-}
-
-th,tr,td{
-    padding:5px;
-    border-spacing:2px;
-    border:2px solid black;
-    font-size: large;
-}
-.sub{
-    display: flex;
-    flex-direction:column;
-    justify-content:center; 
-    align-items:center;
-}
-#wlcm{
-    margin-left:480px;
-    margin-top:20px;
-}
-body{
-    margin:auto;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-}
-.inc{
-    position:relative;
-    left:-200px;
-    /* background-color:rgb(221,139,83); */
-    border-radius:8%;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-}
-.ttl{
-    position:relative;
-    right:-100px;
-    transform: translateY(-78px);
-    /* background-color:red ; */
-    border-radius:8%;
-    text-align: center;
-}
-.blns{
-    position: relative;
-    right:80px;
-    transform: translateY(-50px);
-    /* background-color:brown ; */
-    border-radius:8%;
-    display: flex;
-    flex-direction: column;
-   align-items: center;
-}
-
-header{
-    background-color:#c4c4c4;
-
   /* Header details */
   header{
 
@@ -78,7 +14,6 @@ header{
 header{
 
     background-color:#e6e1e1;
-
     
 }
 .logo{
@@ -89,16 +24,6 @@ header{
 }
 .logo>h1{
     color: rgb(0,0,0);
-
-}
-nav{
-    min-width: 960px;
-    margin-top: 50px;
-    margin-left: 27%;
-    padding-bottom:30px;
-    
-}
-
     
     
 }
@@ -113,7 +38,6 @@ nav>ul{
     text-align: left;
     padding-left:22%;
 }
-
 nav>ul>li{
     display: inline-block;
     padding-inline-end: 3%;
@@ -127,40 +51,6 @@ nav>ul>li>a:hover{
     color: #11f505;
     opacity: 1;
 }
-
-footer{
-    display:flex;
-    justify-content: space-around;
-    background-color:#c4c4c4;
-    padding-top:10px;
-    padding-bottom: 20px;
-}
-#cprt{
-    text-align:center;
-}
-button#pls>a{
-    text-decoration: none;
-    color: black;
-    font-size:20px;
-    font-weight: bolder;
-}
-button>a:hover{
-    color:#11f505;
-}
-button#bln>a{
-    text-decoration:  none;
-    color:black;
-}
-
-input#income,input#xpns,button#bln{
-    margin-bottom: 10px;
-    border-radius:8px;
-    width: 150px;
-}
-.tbl{
-    background-color: #e3dedf;
-}
-
 
   
   /* contact form */
@@ -215,6 +105,7 @@ footer{
   bottom: 20px;
 }
 
+=======
 footer{
 display: flex;
 justify-content: space-around;
