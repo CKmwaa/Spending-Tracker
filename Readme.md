@@ -35,9 +35,7 @@
 ​
 * CSS - which was used to style the pages incuding the navigation bar.
 
-​
-
-​
+​​
 ## Licence
 ​
 MIT License
