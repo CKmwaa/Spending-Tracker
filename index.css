@@ -1,0 +1,77 @@
+
+/* styling the header */
+
+header{
+    background-color:#e6e1e1;
+    
+}
+.logo{
+
+    display: flex;
+    justify-content: space-around;    
+    padding-top: 15px;
+}
+.logo>h1{
+    color: rgb(0,0,0);
+    
+    
+}
+nav{
+    min-width: 960px;
+    padding: 10px 3px;
+    margin-top: -30px;
+    margin-left: 15%;
+    
+}
+nav>ul{
+    text-align: left;
+    padding-left:22%;
+}
+nav>ul>li{
+    display: inline-block;
+    padding-inline-end: 3%;
+    
+}
+nav>ul>li>a{
+    padding: 18px;
+    text-decoration: none;
+}
+nav>ul>li>a:hover{
+    color: #11f505;
+    opacity: 1;
+}
+/* End of header styling */
+
+/* about styling */
+about{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+.abouttext{
+    padding: 10%;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 750;
+    
+    
+}
+.introtext{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+/* footer styling  */
+footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: #c4c4c4;
+    padding: 20px;
+}
+.copyright{
+    text-align: center;
+}
