@@ -1,5 +1,18 @@
+
   /* Header details */
   header{
+
+.first{
+    color: black;
+    text-align: center;
+   font-size: 5ex;
+}
+.second{
+    text-align: center;
+    font-size: 20px;
+}
+header{
+
     background-color:#e6e1e1;
     
 }
@@ -38,6 +51,7 @@ nav>ul>li>a:hover{
     color: #11f505;
     opacity: 1;
 }
+
   
   /* contact form */
   
@@ -89,5 +103,41 @@ footer{
 #but{
   position: relative;
   bottom: 20px;
+}
+
+=======
+footer{
+display: flex;
+justify-content: space-around;
+background-color: #c4c4c4;
+padding: 20px;
+
+}
+.copyright{
+    text-align: center;
+}
+.user {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 5ex;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+.password{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+}
+.submit{
+    height:45px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.submit:hover{
+    background-color: green;
 }
 
