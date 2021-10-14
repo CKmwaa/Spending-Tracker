@@ -1,3 +1,7 @@
+
+  /* Header details */
+  header{
+
 .first{
     color: black;
     text-align: center;
@@ -8,6 +12,7 @@
     font-size: 20px;
 }
 header{
+
     background-color:#e6e1e1;
     
 }
@@ -46,6 +51,61 @@ nav>ul>li>a:hover{
     color: #11f505;
     opacity: 1;
 }
+
+  
+  /* contact form */
+  
+  .Feedback{
+    
+    margin-top: 1em;
+    padding-top: 2em;
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+.form {
+  width: 100%;
+}
+
+.contact-head{
+  color: black;
+    text-align: center;
+    margin-top: 30px;
+    padding:20px;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border-radius: 4px;
+    margin-top: 8px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+
+  }
+  
+/* footer styling  */
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #c4c4c4;
+  padding: 20px;
+  width: 1850px;
+  }
+
+.copyright{
+  text-align: center;
+}
+#but{
+  position: relative;
+  bottom: 20px;
+}
+
+=======
 footer{
 display: flex;
 justify-content: space-around;
@@ -80,3 +140,4 @@ padding: 20px;
 .submit:hover{
     background-color: green;
 }
+
