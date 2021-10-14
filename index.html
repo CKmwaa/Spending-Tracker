@@ -4,12 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+
     <link rel="stylesheet" type="text/css" href="index.css">
+
     <title>Spending Tracker</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
+
+    <header>
+        <div class="logo">
+           <img id="image1"  src="$.png" heigth="100" width="100">
+            <h1>THE SPENDING TRACKER</h1>
+            <img id="image1" src="$.png" heigth="100" width="100">
+        </div>
+            
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#signin">SIGN IN</a></li>
+                <li><a href="#index.html">USAGE</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="tbl">
+        <!-- example of what to display when a user adds expenses to the site -->
+        <h1 id="wlcm">Welcome User</h1>
+        <div class="ex">
+            <table>
+                <tr>
+                    <th>Expenses</th>
+                    <th>Amount used</th>
+                </tr>
+                <tr>
+                    <td>Food</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Water</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Electricity</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Rent</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Clothing</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>Total Exp</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="sub">
+            <div class="inc">
+                <h3>Your Income</h3>
+                <input id="income" type="number" placeholder="Input Your Income" name="Your Income"  required >    
+            </div>
+            <div class="ttl">
+                <h3>Add Expense</h3>
+                <input id="xpns" type="text" placeholder=" Expense" name="Expense"  required> 
+            </div>
+            <div class="blns">
+                <h3>Balance</h3>
+                <button id="bln"><a href="">Your Balance</a></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>About Us.</div>
+        <div id="cprt">
+            Copyright (2021). Four Lane Technology Co. Limited.<br>
+            All rights reserved.
+        </div>
+        <div>Privacy Policy</div>   
+    </footer>
+
           <!-- Header Details -->
           <header>
             <div class="logo">
@@ -58,7 +137,7 @@
               Privacy Policy
             </div>
           </footer>
-=======
+
 <header>
     <div class="logo">
        <img id="image1" src="Logo.jpeg" width="125px" height="125px">
